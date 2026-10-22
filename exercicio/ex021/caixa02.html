@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title> 
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(111, 121, 121);
+        }
+        header{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav {
+            background-color: rgb(165, 163, 163);
+            padding: 3px;
+            box-shadow: 3px 4px 12px 0px rgba(0, 0, 0, 0.342);
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+           
+        }
+        main{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article{
+            background-color: rgb(173, 173, 172);
+                    }
+                    article > aside{
+                        background-color: rgb(115, 117, 117);
+                    }
+        footer{
+            background-color: rgb(12, 12, 12);
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px; /* retirar margem do paragrafo */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, nostrum quae? Quidem animi adipisci in necessitatibus. Officiis illo doloribus aperiam dicta hic, assumenda quae molestias commodi quisquam unde obcaecati ab?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article></article>
+            
+
+        </section>
+
+    
+    </main>
+    <footer>
+        <p>Desenvolvido por Maxwell</p>
+    </footer>
+</body>
+</html>
